@@ -5,7 +5,7 @@
 - HTML
 - CSS
 - Git
--Bootstrap
+- Bootstrap
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Carlos Feliz**
 
 - GitHub: [@xJokeer](https://github.com/xJokeer)
--GitHub: [rotimiazeez](https://github.com/rotimiazeez)
+- GitHub: [rotimiazeez](https://github.com/rotimiazeez)
 
 ## 🤝 Contributing
 
