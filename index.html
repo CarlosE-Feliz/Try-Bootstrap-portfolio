@@ -8,60 +8,83 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header class="container">
-        <nav class="navbar navbar-expand-sm bg-light colum">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link 3</a>
-              </li>
-            </ul>
+<body  class="bg-light">
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-sm bg-light colum mb-3">
+            <a class="navbar-brand col-9" href="#">Logo</a>
+            <ul class="nav  nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
           </nav>
-        <section class="container">
-           <h1>HOLAAAAAA</h1>
-
-            <p> tajkshdkgd;flkhadklfd;flgjhslkdjhdlfkjhflksjddhflkfjfghdflkgjj </p>
+        <section class="container align-content-center">
+            <div class="d-flex justify-content-center bg-secondary mb-3">
+                <div class="p-2 bg-info row">
+                    <h1>HI</h1>
+                </div>
+                <div class="p-2 bg-warning col-*">Text here</div>
+              </div>
         </section>
     </header>
-    <main class="container">
-        <div class="bg-primary column-6">
-            <div class="container">
-                <div><img src="https://www.computerhope.com/jargon/r/random-dice.jpg" alt="PLaceholder"></div>
-                <div>
-                    <p>
-                        Text
-
-                    </p>
-                    <p class="btn">
-                        see project
-                    </p>
+    <main id="about" class="container-fluid">
+        <div class=" justify-content-center d-flex mb-5">
+            <div class="card" style="width: 30em;">
+                <img src="./media/Snapshoot Portfolio.jpg" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                  <h5 class="card-title">Tonic</h5>
+                  <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                  <a href="#" class="btn btn-primary">See Project</a>
                 </div>
-                
-            </div>
+              </div>
         </div>
-        <div class="bg-success column-6">2</div>
-        <div class="bg-primary column-6">3</div>
-        <div class="bg-success column-6">4</div>
+        <div class=" justify-content-center d-flex mb-5">
+            <div class="card" style="width: 30em;">
+                <img src="./media/Snapshoot Portfolio3.png" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                  <h5 class="card-title">Multi-Post Stories</h5>
+                  <p class="card-text">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                  <a href="#" class="btn btn-primary">See Project</a>
+                </div>
+              </div>
+        </div>
+        <div class=" justify-content-center d-flex mb-5">
+            <div class="card" style="width: 30em;">
+                <img src="./media/Snapshoot Portfolio2.jpg" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                  <h5 class="card-title">Facebook 360</h5>
+                  <p class="card-text">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                  <a href="#" class="btn btn-primary">See Project</a>
+                </div>
+              </div>
+        </div>
+        <div class=" justify-content-center d-flex mb-5">
+            <div class="card" style="width: 30em;">
+                <img src="./media/Snapshoot Portfolio1.jpg" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                  <h5 class="card-title">Uber Navigation</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">See Project</a>
+                </div>
+              </div>
+        </div>
 
     </main>
-    <footer class="container">
-        <div class="column-12">
-            <h1>Hi x2</h1>
-            <p>fkghdkfjshdfksdhfksjdf</p>
-        </div>
-        <div class="column-12">
-            <form action="#">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-            </form>
-        </div>
+    <footer id="contact" class="container">    
+<div class="container mt-3">
+    <form>
+        <input type="text" class="form-control" placeholder="Name">
+        <input type="email" class="form-control" placeholder="Email"> 
+        <textarea name="textarea" class="form-control" cols="30" rows="10" placeholder="Write your message here"></textarea>
+        <p class="btn bg-primary">Get it touch</p>
+    </form>
+  </div>
         
     </footer>
     
