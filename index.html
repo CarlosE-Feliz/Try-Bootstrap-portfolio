@@ -7,24 +7,29 @@
     <title>Portfolio-Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+    body{
+        position: relative;
+    }
+</style>
 </head>
-<body  class="bg-light">
-    <header class="container-fluid">
-        <nav class="navbar navbar-expand-sm bg-light colum mb-3">
+<body  class="bg-light" data-spy="scroll" data-target="#navbar">
+    <header class="container-fluid mb-5 pb-5">
+        <nav id="navbar" class="navbar navbar-expand-sm bg-dark colum mb-3 fixed-top">
             <a class="navbar-brand col-9" href="#">Logo</a>
-            <ul class="nav">
+            <ul class="navbar-nav nav-pills">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
           </nav>
-        <section class="container align-content-center mb-5">
+        <section id="portfolio" class="container align-content-center mt-5 pt-5">
             <div class="d-flex justify-content-center bg-secondary mb-3">
                 <div class="p-2 bg-info row">
                     <h1>HI</h1>
@@ -36,8 +41,8 @@
     <main id="about" class="container-fluid">
         <div class=" justify-content-center d-flex mb-5">
             <div class="d-flex" style="width: 55em;">
-                <img src="./media/Snapshoot Portfolio.jpg" class="card-img-top" alt="placeholder">
-                <div class="card-body">
+                <img src="./media/Snapshoot Portfolio.jpg" class="img-fluid" alt="placeholder">
+                <div class="card-body" style="margin-left: 5em;">
                   <h5 class="card-title">Tonic</h5>
                   <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
                   <a href="#" class="btn btn-primary">See Project</a>
@@ -47,7 +52,7 @@
         <div class=" justify-content-center d-flex mb-5">
             <div class="d-flex" style="width: 55em;">
                 <img src="./media/Snapshoot Portfolio3.png" class="img-fluid order-1" alt="placeholder">
-                <div class="card-body">
+                <div class="card-body" style="margin-right: 5em;">
                   <h5 class="card-title">Multi-Post Stories</h5>
                   <p class="card-text">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
                   <a href="#" class="btn btn-primary">See Project</a>
@@ -56,8 +61,8 @@
         </div>
         <div class=" justify-content-center d-flex mb-5">
             <div class="d-flex" style="width: 55em;">
-                <img src="./media/Snapshoot Portfolio2.jpg" class="card-img-top" alt="placeholder">
-                <div class="card-body">
+                <img src="./media/Snapshoot Portfolio2.jpg" class="img-fluid" alt="placeholder">
+                <div class="card-body" style="margin-left: 5em;">
                   <h5 class="card-title">Facebook 360</h5>
                   <p class="card-text">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
                   <a href="#" class="btn btn-primary">See Project</a>
@@ -66,8 +71,8 @@
         </div>
         <div class=" justify-content-center d-flex mb-5">
             <div class="d-flex" style="width: 55em;">
-                <img src="./media/Snapshoot Portfolio1.jpg" class="card-img-top order-1" alt="placeholder">
-                <div class="card-body">
+                <img src="./media/Snapshoot Portfolio1.jpg" class="img-fluid order-1" alt="placeholder">
+                <div class="card-body" style="margin-right: 5em;">
                   <h5 class="card-title">Uber Navigation</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a href="#" class="btn btn-primary">See Project</a>
@@ -76,13 +81,16 @@
         </div>
 
     </main>
-    <footer id="contact" class="container">    
-<div class="container mt-3">
-    <form>
-        <input type="text" class="form-control" placeholder="Name">
-        <input type="email" class="form-control" placeholder="Email"> 
-        <textarea name="textarea" class="form-control" cols="30" rows="10" placeholder="Write your message here"></textarea>
+    <footer id="contact" class="container mt-5 pt-5">    
+   <div class="container">
+       <h1>Contact us!</h1>
+    <form> 
+        <div class="form-group">
+        <input type="text" class="form-control col-2" placeholder="Name">
+        <input type="email" class="form-control col-2" placeholder="Email"> 
+        <textarea name="textarea" class="form-control col-2" rows="10" placeholder="Write your message here"></textarea>
         <p class="btn bg-primary">Get it touch</p>
+    </div>
     </form>
   </div>
         
