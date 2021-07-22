@@ -15,14 +15,14 @@
 </head>
 <body  class="bg-light" data-spy="scroll" data-target="#navbar">
     <header class="container-fluid mb-5 pb-5">
-        <nav id="navbar" class="navbar navbar-expand-sm bg-dark colum mb-3 fixed-top">
+        <nav id="navbar" class="navbar navbar-expand-sm colum mb-3 fixed-top">
             <a class="navbar-brand col-9" href="#">Logo</a>
             <ul class="navbar-nav nav-pills">
                 <li class="nav-item">
                   <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
+                  <a class="nav-link" href="#about">About us</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact</a>
@@ -30,21 +30,36 @@
               </ul>
           </nav>
         <section id="portfolio" class="container align-content-center mt-5 pt-5">
-            <div class="d-flex justify-content-center bg-secondary mb-3">
-                <div class="p-2 bg-info row">
-                    <h1>HI</h1>
+            <div class="flex-column justify-content-center  mb-3">
+                <div >
+                    <h1 class="text-center">Hi! We're Carlos & Azeez <br/>
+                        Glad to see you here!</h1>
                 </div>
-                <div class="p-2 bg-warning col-*">Text here</div>
+                <div>
+                   <p class="text-center"> 
+                       We're software developers! We can help you build a product , feature or website Look through 
+                       <br/>
+                       some of our work and experience! If you like what you see and have a project you need coded, 
+                       <br/>
+                       don’t hestiate to contact us.
+                    </p>
+                </div>
               </div>
         </section>
     </header>
     <main id="about" class="container-fluid">
         <div class=" justify-content-center d-flex mb-5">
             <div class="d-flex" style="width: 55em;">
-                <img src="./media/Snapshoot Portfolio.jpg" class="img-fluid" alt="placeholder">
+                <img src="./media/Snapshoot Portfolio.jpg" id="img" class="img-fluid" alt="placeholder">
                 <div class="card-body" style="margin-left: 5em;">
                   <h5 class="card-title">Tonic</h5>
+
                   <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                  <ul class="list-group list-group-horizontal mb-3">
+                    <li class="list-group-item">HTML</li>
+                    <li class="list-group-item">CSS</li>
+                    <li class="list-group-item">JavaScript</li>
+                </ul>
                   <a href="#" class="btn btn-primary">See Project</a>
                 </div>
               </div>
@@ -55,6 +70,11 @@
                 <div class="card-body" style="margin-right: 5em;">
                   <h5 class="card-title">Multi-Post Stories</h5>
                   <p class="card-text">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                  <ul class="list-group list-group-horizontal mb-3">
+                    <li class="list-group-item">HTML</li>
+                    <li class="list-group-item">CSS</li>
+                    <li class="list-group-item">JavaScript</li>
+                </ul>
                   <a href="#" class="btn btn-primary">See Project</a>
                 </div>
               </div>
@@ -65,6 +85,11 @@
                 <div class="card-body" style="margin-left: 5em;">
                   <h5 class="card-title">Facebook 360</h5>
                   <p class="card-text">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                  <ul class="list-group list-group-horizontal mb-3">
+                    <li class="list-group-item">HTML</li>
+                    <li class="list-group-item">CSS</li>
+                    <li class="list-group-item">JavaScript</li>
+                </ul>
                   <a href="#" class="btn btn-primary">See Project</a>
                 </div>
               </div>
@@ -75,6 +100,11 @@
                 <div class="card-body" style="margin-right: 5em;">
                   <h5 class="card-title">Uber Navigation</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <ul class="list-group list-group-horizontal mb-3">
+                      <li class="list-group-item">HTML</li>
+                      <li class="list-group-item">CSS</li>
+                      <li class="list-group-item">JavaScript</li>
+                  </ul>
                   <a href="#" class="btn btn-primary">See Project</a>
                 </div>
               </div>
@@ -83,12 +113,12 @@
     </main>
     <footer id="contact" class="container mt-5 pt-5">    
    <div class="container">
-       <h1>Contact us!</h1>
+       <h1 class="text-center">Contact us!</h1>
     <form> 
         <div class="form-group">
-        <input type="text" class="form-control col-2" placeholder="Name">
-        <input type="email" class="form-control col-2" placeholder="Email"> 
-        <textarea name="textarea" class="form-control col-2" rows="10" placeholder="Write your message here"></textarea>
+        <input type="text" class="form-control" placeholder="Name">
+        <input type="email" class="form-control" placeholder="Email"> 
+        <textarea name="textarea" class="form-control" rows="10" placeholder="Write your message here"></textarea>
         <p class="btn bg-primary">Get it touch</p>
     </div>
     </form>
