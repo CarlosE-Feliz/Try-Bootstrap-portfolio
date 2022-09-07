@@ -7,61 +7,135 @@
     <title>Portfolio-Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </head>
-<body>
-    <header class="container">
-        <nav class="navbar navbar-expand-sm bg-light colum">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link 3</a>
-              </li>
-            </ul>
+<body  class="bg-light" data-spy="scroll" data-target="#navbar">
+    <header class="container-fluid mb-5 pb-5">
+        <nav id="navbar" class="navbar navbar-expand-sm colum mb-3 fixed-top">
+            <a class="navbar-brand col-9" href="#">Logo</a>
+            <ul class="navbar-nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
           </nav>
-        <section class="container">
-           <h1>HOLAAAAAA</h1>
-
-            <p> tajkshdkgd;flkhadklfd;flgjhslkdjhdlfkjhflksjddhflkfjfghdflkgjj </p>
-        </section>
-    </header>
-    <main class="container">
-        <div class="bg-primary column-6">
-            <div class="container">
-                <div><img src="https://www.computerhope.com/jargon/r/random-dice.jpg" alt="PLaceholder"></div>
+        <section id="portfolio" class="container align-content-center mt-5 pt-5">
+            <div class="flex-column justify-content-center  mb-3">
+                <div >
+                    <h1 class="text-center">Hi! We're Carlos & Azeez <br/>
+                        Glad to see you here!</h1>
+                </div>
                 <div>
-                    <p>
-                        Text
-
-                    </p>
-                    <p class="btn">
-                        see project
+                   <p class="text-center"> 
+                       We're software developers! We can help you build a product , feature or website Look through 
+                       <br/>
+                       some of our work and experience! If you like what you see and have a project you need coded, 
+                       <br/>
+                       don’t hestiate to contact us.
                     </p>
                 </div>
-                
-            </div>
+              </div>
+        </section>
+    </header>
+    <main id="about" class="container-fluid">
+        <div class=" justify-content-center d-flex mb-5">
+            <div class="d-flex" style="width: 55em;">
+                <img src="./media/Snapshoot Portfolio.jpg" id="img" class="img-fluid" alt="placeholder">
+                <div class="card-body" style="margin-left: 5em;">
+                  <h5 class="card-title">Tonic</h5>
+
+                  <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                  <ul class="list-group list-group-horizontal mb-3">
+                    <li class="list-group-item">HTML</li>
+                    <li class="list-group-item">CSS</li>
+                    <li class="list-group-item">JavaScript</li>
+                </ul>
+                  <a href="#" class="btn btn-primary">See Project</a>
+                </div>
+              </div>
         </div>
-        <div class="bg-success column-6">2</div>
-        <div class="bg-primary column-6">3</div>
-        <div class="bg-success column-6">4</div>
+        <div class=" justify-content-center d-flex mb-5">
+            <div class="d-flex" style="width: 55em;">
+                <img src="./media/Snapshoot Portfolio3.png" class="img-fluid order-1" alt="placeholder">
+                <div class="card-body" style="margin-right: 5em;">
+                  <h5 class="card-title">Multi-Post Stories</h5>
+                  <p class="card-text">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                  <ul class="list-group list-group-horizontal mb-3">
+                    <li class="list-group-item">HTML</li>
+                    <li class="list-group-item">CSS</li>
+                    <li class="list-group-item">JavaScript</li>
+                </ul>
+                  <a href="#" class="btn btn-primary">See Project</a>
+                </div>
+              </div>
+        </div>
+        <div class=" justify-content-center d-flex mb-5">
+            <div class="d-flex" style="width: 55em;">
+                <img src="./media/Snapshoot Portfolio2.jpg" class="img-fluid" alt="placeholder">
+                <div class="card-body" style="margin-left: 5em;">
+                  <h5 class="card-title">Facebook 360</h5>
+                  <p class="card-text">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                  <ul class="list-group list-group-horizontal mb-3">
+                    <li class="list-group-item">HTML</li>
+                    <li class="list-group-item">CSS</li>
+                    <li class="list-group-item">JavaScript</li>
+                </ul>
+                  <a href="#" class="btn btn-primary">See Project</a>
+                </div>
+              </div>
+        </div>
+        <div class=" justify-content-center d-flex mb-5">
+            <div class="d-flex" style="width: 55em;">
+                <img src="./media/Snapshoot Portfolio1.jpg" class="img-fluid order-1" alt="placeholder">
+                <div class="card-body" style="margin-right: 5em;">
+                  <h5 class="card-title">Uber Navigation</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <ul class="list-group list-group-horizontal mb-3">
+                      <li class="list-group-item">HTML</li>
+                      <li class="list-group-item">CSS</li>
+                      <li class="list-group-item">JavaScript</li>
+                  </ul>
+                  <a href="#" class="btn btn-primary">See Project</a>
+                </div>
+              </div>
+        </div>
 
     </main>
-    <footer class="container">
-        <div class="column-12">
-            <h1>Hi x2</h1>
-            <p>fkghdkfjshdfksdhfksjdf</p>
-        </div>
-        <div class="column-12">
-            <form action="#">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-            </form>
-        </div>
+    <footer id="contact" class="container col-9 mt-5  pt-5">    
+    
+  <div class="form-outline mb-4">
+    <label class="form-label" for="form4Example1">Name</label>
+    <input type="text" id="form4Example1" class="form-control" />
+  </div>
+
+  
+  <div class="form-outline mb-4">
+    <label class="form-label" for="form4Example2">Email address</label>
+    <input type="email" id="form4Example2" class="form-control" />
+    
+  </div>
+
+  
+  <div class="form-outline mb-4">
+    
+    <label class="form-label" for="form4Example3">Message</label>
+    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+  </div>
+
+  
+  <button type="submit" class="btn btn-primary btn-block mb
+-4 ">Send</button>
+</form>
+
+      
+  
+  
         
     </footer>
     
